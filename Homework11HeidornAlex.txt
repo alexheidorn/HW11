@@ -1,0 +1,18 @@
+Alex Heidorn
+Teammates: Aidan Carlson, Anna Wolf, Samuel Draeger
+
+This is similar to a depth-first search because we go down to the end of a single
+branch and then backtrack until the last unexplored path, and then explore to the end 
+of that path. We repeat until we explore and output the full tree.
+
+We can also conclude that the numbers to the left of 25 belong to the left side
+of the tree because they're all less than 50 (the root).
+
+We can also tell that the numbers from 70 and to the right are on the right side
+of the root.
+
+By looking at both sets independently, we can also tell that 25 and 80 are the 
+children nodes of the root because they're both the final numbers in each set.
+
+We can also see what the left limits are in each set because they're the lowest values.
+In this case, the left limits of each branch are 10 and 60. 
